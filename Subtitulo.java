@@ -1,4 +1,4 @@
-public class Subtitulos {
+public class Subtitulo {
 
     private String idioma;
 
@@ -7,7 +7,7 @@ public class Subtitulos {
     public Subtitulos() {
     }
 
-    public Subtitulos(String idioma, String autor) {
+    public Subtitulo(String idioma, String autor) {
         this.idioma = idioma;
         this.autor = autor;
     }
