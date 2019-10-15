@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Temporadas {
+public class Temporada {
 
     private String fechaEstreno;
 
@@ -10,11 +10,11 @@ public class Temporadas {
     
     private Serie serie;
 
-    public Temporadas() {
+    public Temporada() {
         Serie serie=new Serie();
     }
 
-    public Temporadas(String fechaEstreno, String fechaProduccion, int capitulos, Serie serie) {
+    public Temporada(String fechaEstreno, String fechaProduccion, int capitulos, Serie serie) {
         this.fechaEstreno = fechaEstreno;
         this.fechaProduccion = fechaProduccion;
         this.numero = numero;
